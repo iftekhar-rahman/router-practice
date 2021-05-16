@@ -13,7 +13,7 @@ const Header = () => {
             <div className="container">
                 <div className="row">
                     <div className="col">
-                        <Link to="/home">
+                        <Link style={{display: 'inline-block', cursor: 'pointer'}} to="/home">
                             <img style={{height: '100px'}} src={logo} alt="" />
                         </Link>
                     </div>
